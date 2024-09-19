@@ -36,9 +36,9 @@ const (
 	annotationConfigMap          = "kubetap.io/proxy-config"
 	annotationIsTapped           = "kubetap.io/tapped"
 
-	defaultImageHTTP = "gcr.io/soluble-oss/kubetap-mitmproxy:latest"
-	defaultImageRaw  = "gcr.io/soluble-oss/kubetap-raw:latest"
-	defaultImageGRPC = "gcr.io/soluble-oss/kubetap-grpc:latest"
+	defaultImageHTTP = "prod-docker-repo.g4lab.com/gcr.io/soluble-oss/kubetap-mitmproxy:latest"
+	defaultImageRaw  = "prod-docker-repo.g4lab.com/gcr.io/soluble-oss/kubetap-raw:latest"
+	defaultImageGRPC = "prod-docker-repo.g4lab.com/gcr.io/soluble-oss/kubetap-grpc:latest"
 )
 
 // die exit the program, printing the error.
